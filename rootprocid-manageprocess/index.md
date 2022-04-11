@@ -1,0 +1,17 @@
+---
+layout: resume
+title: manageprocess
+excerpt: Manage database defined process
+rootprocid: manageprocess
+search_omit: true
+share: true
+---
+
+<h1 class='foot-description'>Sub processes</h1>
+<ul class='post-list'>
+{% for post in site.categories.subprocess %}
+  {% if post.rootprocid == 'manageprocess' %}
+    {% include subprocess.html post=post %}
+  {% endif %}
+{% endfor %}
+</ul>
