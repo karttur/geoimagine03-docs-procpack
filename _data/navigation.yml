@@ -8,10 +8,6 @@
   url: /
   include: 'N'
 
-- title: Concept
-  url: /concept/
-  include: 'N'
-
 - title: Packages
   url: /packages/
   include: 'N'
